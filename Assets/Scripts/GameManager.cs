@@ -23,5 +23,6 @@ public class GameManager : MonoBehaviour
             Instantiate(ballPrefab, spawnPoint.position, Quaternion.identity);
             BallOut = true;
         }
+
     }
 }
