@@ -14,6 +14,7 @@ public class BallCollision : MonoBehaviour
         {
             Debug.Log("teesst");
             Destroy(other.gameObject);
+            GameManager.Score += 1;
             GameManager.BallOut = false;
         }
     }
